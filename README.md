@@ -23,7 +23,7 @@ _A collection of data for analysis and visualization of Myocyte enhancer factor 
 
 ## Project In Progress
 
-_Welcome to AAA-pyqueen's MEF2C Bioinformatics Collection:tada:!_
+_Welcome to AAA-pyqueen's MEF2C Bioinformatics Collection!_
 
 
 <footer>
