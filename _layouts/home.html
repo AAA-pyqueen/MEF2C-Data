@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: home
 title: Home
 ---
 
@@ -8,13 +8,23 @@ title: Home
     <p>{{ site.description }}</p>
 </section>
 
-<section class="latest-posts">
-    <h2>Latest Posts</h2>
+<section>
+    <h2>Explore the Project</h2>
     <ul>
-        {% for post in site.posts limit:5 %}
+        <li><a href="{{ "/about" | relative_url }}">📖 About This Project</a></li>
+        <li><a href="{{ "/data" | relative_url }}">📊 Data & Dashboards</a></li>
+        <li><a href="{{ "/references" | relative_url }}">📚 References</a></li>
+        <li><a href="{{ "/gallery" | relative_url }}">🖼️ Project Gallery</a></li>
+    </ul>
+</section>
+
+<section>
+    <h2>Recent Research</h2>
+    <ul>
+        {% for project in site.projects limit:3 %}
             <li>
-                <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - 
-                <small>{{ post.date | date: "%B %d, %Y" }}</small>
+                <a href="{{ project.url | relative_url }}"><strong>{{ project.title }}</strong></a>
+                <p>{{ project.description | truncate: 100 }}</p>
             </li>
         {% endfor %}
     </ul>
