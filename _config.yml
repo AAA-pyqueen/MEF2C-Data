@@ -1,7 +1,7 @@
 #Setup
 title: "Genomic Insights into MEF2C"
 description: "An independent bioinformatics exploration of Myocyte enhancer factor 2C."
-baseurl: ""
+baseurl: https://aaa-pyqueen.github.io/MEF2C-Data/
 url: https://aaa-pyqueen.github.io/MEF2C-Data/home.html/
 author: "Aquesha A. Addison, RHIA"
 
@@ -14,9 +14,9 @@ Collections:
     output:  true
 
 #Dependencies
-markdown:         kramdown
-highlighter:      rouge
-theme: jekyll-theme-minimal
+markdown: kramdown
+highlighter: rouge
+theme: minima
 
 plugins:
   
