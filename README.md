@@ -25,7 +25,7 @@ _A collection of data for analysis and visualization of Myocyte enhancer factor 
 
 ---
 
-Get help: [Post in our discussion board](https://github.com/orgs/skills/discussions/categories/github-pages) &bull; [Review the GitHub status page](https://www.githubstatus.com/)
+Connect With Me on [LinkedIn](https://www.linkedin.com/in/aquesha-addison/)
 
 &copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
