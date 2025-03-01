@@ -1,0 +1,13 @@
+---
+layout: default
+title: References
+---
+
+<section class="references">
+    <h1>References</h1>
+    <ul>
+        {% for reference in site.data.references %}
+            <li>{{ reference.citation }}</li>
+        {% endfor %}
+    </ul>
+</section>
