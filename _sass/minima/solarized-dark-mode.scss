@@ -1,4 +1,9 @@
 // Dark mode styles
+@charset "utf-8";
+
+$sol-is-auto: false;
+$sol-is-dark: true;
+
 body {
     background-color: #121212;
     color: #e0e0e0;
@@ -16,3 +21,4 @@ header, footer {
 .post-title, .site-title {
     color: #ffffff;
 }
+@import "minima/solarized-dark-mode";
