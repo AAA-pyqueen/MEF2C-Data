@@ -1,19 +1,57 @@
 #Setup
 title: "Genomic Insights into MEF2C"
 description: "An independent bioinformatics exploration of Myocyte enhancer factor 2C."
-baseurl: https://aaa-pyqueen.github.io/MEF2C-Data/
-url: https://aaa-pyqueen.github.io/MEF2C-Data/home.html/
 author: "Aquesha A. Addison, RHIA"
 
+repository
+  baseurl: https://aaa-pyqueen.github.io/MEF2C-Data/
+  url: https://aaa-pyqueen.github.io/MEF2C-Data/home.html/
+  branch: main
+
+
 Collections:
+  layouts:
+    output: false
   _pages:
     output: true
   projects:
     output: true
   references:
     output:  true
-
-#Dependencies
+##################################################################
+#Dependencies & Customizations
 markdown: kramdown
 highlighter: rouge
 theme: minima
+  skin: solarized-dark-mode
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+  - jekyll-paginate
+  - jekyll-relative-links
+  - jekyll-github-metadeta
+  - nokogiri
+  - safe-yaml
+###################################################################
+#HTML-specific settings
+html:
+  home_page_in_navbar: false
+  extra_navbar: ""
+  use_edit_page_button: true
+  use_repository_button: true
+  use_issues_button: true
+  baseurl: https://aaa-pyqueen.github.io/MEF2C-Data/
+
+#######################################################
+#Enable React App Embedding
+exclude:
+  - node_modules
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - webpack.config.js
+
+include:
+  - _pages
