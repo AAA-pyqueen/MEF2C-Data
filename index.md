@@ -31,8 +31,9 @@ With a passion for genetics and computational biology, I'm driven to tackle comp
 
 I'm always excited to discuss my work, share ideas, or explore potential collaborations. Feel free to reach out to me on LinkedIn or via Outlook using the links below. Let's connect and push the boundaries of what's possible in understanding the brain!
 
-https://www.linkedin.com/in/aquesha-addison
-aquesha.addison@outlook.com
+(https://www.linkedin.com/in/aquesha-addison)
+
+[aquesha.addison@outlook.com]
 ---
 
 *By the way, if you're interested in the broader implications of bioinformatics in neuroscience or have ideas on innovative computational techniques, I'd love to hear your thoughts!*
