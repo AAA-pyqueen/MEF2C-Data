@@ -1,17 +1,45 @@
 source "https://rubygems.org"
 
-gem 'github-pages', '~> 232', group: :jekyll_plugins
-gem 'jekyll', '~> 4.4', '>= 4.4.1'
-gem 'jekyll-paginate', '~> 1.1'
-gem 'jekyll-relative-links', '~> 0.7.0'
-gem 'jekyll-sitemap', '~> 1.4'
-gem 'jekyll-seo-tag', '~> 2.8'
+# 🔹 Jekyll Core
+gem "jekyll", "~> 4.3"
 
-gem 'liquid', '~> 5.8', '>= 5.8.1'
-gem 'minima', '~> 2.5', '>= 2.5.2'
-gem 'kramdown-parser-gfm', '~> 1.1'
-gem 'nokogiri', '~> 1.18', '>= 1.18.3'
-gem 'html-pipeline', '~> 3.2', '>= 3.2.2'
-gem 'safe_yaml', '~> 1.0', '>= 1.0.5'
-gem 'github-pages-health-check', '~> 1.18', '>= 1.18.5'
+# 🔹 GitHub Pages Plugin Group
+group :jekyll_plugins do
+  gem "jekyll-feed"           # Generates RSS/Atom feed
+  gem "jekyll-seo-tag"        # Improves SEO metadata
+  gem "jekyll-sitemap"        # Generates a sitemap.xml
+  gem "jekyll-paginate"       # Enables pagination
+  gem "jekyll-relative-links" # Resolves relative links
+  gem "jekyll-github-metadata" # Fetches GitHub repository metadata
+  gem "jekyll-github-health-check" # Checks repo health for GitHub Pages
+end
 
+# 🔹 Markdown & Parsing Enhancements
+gem "kramdown"                # Markdown processor
+gem "kramdown-parser-gfm"     # GitHub Flavored Markdown support
+gem "html-pipeline"           # Enables advanced Markdown processing
+gem "liquid", "~> 4.0"        # Templating engine for Jekyll
+
+# 🔹 Theme (Minima + Skins)
+gem "minima", "~> 2.5"
+
+# 🔹 Syntax Highlighting
+gem "rouge"  # Required for code highlighting
+
+# 🔹 GitHub Pages (Optional: If deploying via GitHub Pages)
+group :jekyll_pages do
+  gem "github-pages", "~> 227" # Uses GitHub Pages compatible dependencies
+end
+
+# 🔹 Development Tools
+group :development do
+  gem "jekyll-admin" # Admin UI for Jekyll
+  gem "webrick"      # Required for `bundle exec jekyll serve`
+  gem "bundler"
+end
+
+# 🔹 Security & Performance
+group :production do
+  gem "nokogiri"  # Improves XML/HTML parsing
+  gem "safe-yaml" # Protects YAML parsing
+end
