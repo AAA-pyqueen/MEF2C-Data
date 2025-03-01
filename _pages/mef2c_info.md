@@ -1,7 +1,7 @@
 ---
-layout: mef2c-info
+layout: about
 title: 'What is MEF2C?'
-subtitle: <a href='#'>Learn More About The Gene</a>.
+subtitle: "Learn More About The Gene"
 permalink: /mef2c-info/
 ---
 
