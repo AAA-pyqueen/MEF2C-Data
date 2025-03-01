@@ -3,7 +3,7 @@ title: "Genomic Insights into MEF2C"
 description: "An independent bioinformatics exploration of Myocyte enhancer factor 2C."
 author: "Aquesha A. Addison, RHIA"
 
-repository
+repository:
   baseurl: https://aaa-pyqueen.github.io/MEF2C-Data/
   url: https://aaa-pyqueen.github.io/MEF2C-Data/home.html/
   branch: main
