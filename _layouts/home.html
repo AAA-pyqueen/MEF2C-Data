@@ -1,0 +1,21 @@
+---
+layout: default
+title: Home
+---
+
+<section class="hero">
+    <h1>Welcome to {{ site.title }}</h1>
+    <p>{{ site.description }}</p>
+</section>
+
+<section class="latest-posts">
+    <h2>Latest Posts</h2>
+    <ul>
+        {% for post in site.posts limit:5 %}
+            <li>
+                <a href="{{ post.url | relative_url }}">{{ post.title }}</a> - 
+                <small>{{ post.date | date: "%B %d, %Y" }}</small>
+            </li>
+        {% endfor %}
+    </ul>
+</section>
