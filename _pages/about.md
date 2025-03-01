@@ -1,6 +1,7 @@
 ---
 layout: about
 title: "About My Project"
+permalink: /about/
 ---
 
 # About My Project: Unveiling Mef2c's Secrets Through Bioinformatics
