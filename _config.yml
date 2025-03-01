@@ -17,26 +17,3 @@ Collections:
 markdown: kramdown
 highlighter: rouge
 theme: minima
-
-plugins:
-  
-include:
-  - _pages
-  - _layouts
-  - static
-  - templates
-  - assets
-
-  nav:
-  - title: "Home"
-    url: "/"
-  - title: "About"
-    url: "/about/"
-  - title: "Projects"
-    url: "/projects/"
-  - title: "References"
-    url: "/references/"
-  - title: "Gallery"
-    url: "/gallery/"
-  - title: "Data"
-    url: "/data/"
