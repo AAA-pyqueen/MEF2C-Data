@@ -1,0 +1,24 @@
+---
+layout: default
+title: "Page Not Found"
+permalink: /404.html/
+---
+
+<section class="not-found">
+    <h1>404 - Page Not Found</h1>
+    <p>Oops! The page you’re looking for doesn’t exist or has been moved.</p>
+    <p>You will be redirected to the <a href="{{ "/" | relative_url }}">home page</a> in <span id="countdown">5</span> seconds.</p>
+
+    <script>
+        let countdown = document.getElementById("countdown");
+        let seconds = 5;
+        setInterval(function() {
+            if (seconds > 0) {
+                seconds--;
+                countdown.textContent = seconds;
+            } else {
+                window.location.href = "{{ "/" | relative_url }}";
+            }
+        }, 1000);
+    </script>
+</section>
