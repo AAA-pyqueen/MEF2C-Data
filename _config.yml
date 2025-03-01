@@ -3,3 +3,4 @@ include:
   - _pages
   - _layouts
   - static
+  - templates
