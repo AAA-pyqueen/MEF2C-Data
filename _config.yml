@@ -1,3 +1,4 @@
 theme: minima
 include:
   - _pages
+  - _layouts
