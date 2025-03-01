@@ -3,16 +3,16 @@ title: "Genomic Insights into MEF2C"
 description: "An independent bioinformatics exploration of Myocyte enhancer factor 2C."
 author: "Aquesha A. Addison, RHIA"
 
-repository:
-  baseurl: https://aaa-pyqueen.github.io/MEF2C-Data/
-  url: https://aaa-pyqueen.github.io/MEF2C-Data/home.html/
-  branch: main
+#Repository
+baseurl: /MEF2C-Data/
+url: https://aaa-pyqueen.github.io
+branch: main
 
 
-Collections:
+collections:
   layouts:
     output: false
-  _pages:
+  pages:
     output: true
   projects:
     output: true
@@ -23,6 +23,8 @@ Collections:
 markdown: kramdown
 highlighter: rouge
 theme: minima
+
+minima:
   skin: solarized-dark-mode
 
 plugins:
@@ -31,14 +33,13 @@ plugins:
   - jekyll-sitemap
   - jekyll-paginate
   - jekyll-relative-links
-  - jekyll-github-metadeta
+  - jekyll-github-metadata
   - nokogiri
   - safe-yaml
 ###################################################################
 #HTML-specific settings
 html:
   home_page_in_navbar: false
-  extra_navbar: ""
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
@@ -54,4 +55,4 @@ exclude:
   - webpack.config.js
 
 include:
-  - _pages
+  - pages
