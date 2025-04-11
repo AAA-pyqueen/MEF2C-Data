@@ -29,6 +29,12 @@ Currently Under Construction, but Thank You for Stopping By!
 
 Connect With Me on [LinkedIn](https://www.linkedin.com/in/aquesha-addison/)
 
+### Show your support
+
+Give a ⭐ if you like this website!
+
+<a href="[https://buymeacoffee.com/aaapyqueen]" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-violet.png" alt="Buy Me A Coffee" height= "60px" width= "217px" ></a>
+
 &copy; 2023 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
 
 </footer>
