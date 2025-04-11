@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # 🔹 Jekyll Core
-gem "jekyll", "~> 4.3"
+gem "jekyll", "~> 3.10.0"
 
 # 🔹 GitHub Pages Plugin Group
 group :jekyll_plugins do
@@ -11,7 +11,7 @@ group :jekyll_plugins do
   gem "jekyll-paginate"       # Enables pagination
   gem "jekyll-relative-links" # Resolves relative links
   gem "jekyll-github-metadata" # Fetches GitHub repository metadata
-  gem "jekyll-github-health-check" # Checks repo health for GitHub Pages
+  gem "github-pages-health-check" # Checks repo health for GitHub Pages
 end
 
 # 🔹 Markdown & Parsing Enhancements
@@ -28,7 +28,7 @@ gem "rouge"  # Required for code highlighting
 
 # 🔹 GitHub Pages (Optional: If deploying via GitHub Pages)
 group :jekyll_pages do
-  gem "github-pages", "~> 227" # Uses GitHub Pages compatible dependencies
+  gem "github-pages", "~> 232" # Uses GitHub Pages compatible dependencies
 end
 
 # 🔹 Development Tools
@@ -41,5 +41,5 @@ end
 # 🔹 Security & Performance
 group :production do
   gem "nokogiri"  # Improves XML/HTML parsing
-  gem "safe-yaml" # Protects YAML parsing
+  gem "safe_yaml" # Protects YAML parsing
 end
