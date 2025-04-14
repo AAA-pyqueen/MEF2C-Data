@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: default
 title: "About My Project"
 permalink: /about/
 ---
