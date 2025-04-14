@@ -1,5 +1,5 @@
 ---
-layout: about
+layout: default
 title: 'What is MEF2C?'
 subtitle: "Learn More About The Gene"
 permalink: /mef2c-info/
