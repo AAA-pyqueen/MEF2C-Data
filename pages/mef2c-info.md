@@ -6,7 +6,7 @@ permalink: /mef2c-info/
 ---
 
 # What is MEF2C?
- MEF2C, or Myocyte-specific enhancer factor 2C, is a gene in humans that plays a crucial role brain development, muscle formation, and immune system function. It provides instructions for making the MEF2C protein, a transcription factr that helps control the activity of othe genes. This protein is particularly important during early brain development, where it regulates the growth and specialization of neurons, the cells that transmit signalls in the nervous system. Because of its role in guiding neuronal connections, MEF2C is effential for learning, memory, and overall cognitive function.
+ MEF2C, or Myocyte-specific enhancer factor 2C, is a gene in humans that plays a crucial role brain development, muscle formation, and immune system function. It provides instructions for making the MEF2C protein, a transcription factor that helps control the activity of othe genes. This protein is particularly important during early brain development, where it regulates the growth and specialization of neurons, the cells that transmit signals in the nervous system. Because of its role in guiding neuronal connections, MEF2C is effential for learning, memory, and overall cognitive function.
 
  Mutations or deletions in the MEF2C gene can lead to a rare condition known as MEF2C haploinsufficiency syndrome. This disorder is characetrized by intellectual disability, delayed speech and motor development, seizures, an distinctive facial features. The condition arises because the loss of malfunction of MEF2C disrupts normal brain signaling, leading to neurological and developmental challenges. 
 
